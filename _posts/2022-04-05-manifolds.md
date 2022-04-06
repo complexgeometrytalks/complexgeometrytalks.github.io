@@ -8,4 +8,4 @@ permalink: /lecture-1/
 ---
 
 
-A nice description about Pablo's lecture :)
+A nice description about Pablo's lecture on manifolds :)

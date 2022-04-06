@@ -1,0 +1,8 @@
+- name: Twitter
+  link: 'https://twitter.com/_Pablo_Morales'
+  social_icon: Twitter
+  new_window: true
+# - name: RSS
+#   link: '/feed.xml'
+#   social_icon: RSS
+#   new_window: true

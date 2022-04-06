@@ -1,0 +1,115 @@
+---
+layout: default
+---
+<div id="main">
+
+  <section id="one">
+    <header class="major"> <h2> Hitchhiker guide's to Complex Geometry </h2> </header>
+		<p> This reading group is composed by a series of lectures and reknowned invited speakers that aims to better understand Complex Geometry, and foster cross-field interactions between physicists, geometers and machine learners. 
+        <br />
+        Everyone is welcome to attend! </p>
+		<ul class="actions">
+			<li><a href="{{ site.baseurl }}{% link pages/about.md %}" class="button"> About Us</a></li>
+      <li><a href="{{ site.baseurl }}{% link pages/schedule.md %}" class="button"> Schedule </a></li>
+		</ul>
+  </section>
+
+
+  <!-- <section id="two">
+    <div class="row">
+      {% for post in site.posts %}
+      <article class="{% cycle '6u', '6u$' %} 12u(xsmall)">
+        <header>
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        </header>
+        <section>
+
+        </section>
+        <footer>
+          <ul class="actions">
+            <li><a href="{{ post.url }}" class="button">Read More</a></li>
+            <li class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="button"><strong>&#9998;</strong> Edit post</a></li>
+          </ul>
+        </footer>
+      </article>
+      {% endfor %}
+    </div>
+  </section> -->
+
+
+  <section id="two">
+  <h2>Upcoming Events</h2>
+  <p></p>
+      <div class="row">
+        {% for post in site.posts reversed%}
+        {% if post.tags contains 'upcoming' %}
+          <article class="{% cycle '6u', '6u$' %} 12u(xsmall)">
+            <a href="{{ post.url }}" class="image fit thumb"><img src="{{ post.image }}" alt="" /></a>
+            <p> {{ post.title }} - {{post.date_event | date_to_long_string }} </p>
+          </article>
+        {% endif %}
+        {% endfor %}
+      </div>
+  </section>
+
+  <section id="three">
+  <h2>Past Events</h2>
+  <p></p>
+      <div class="row">
+        {% for post in site.posts %}
+        {% if post.tags contains 'past' %}
+          <article class="{% cycle '6u', '6u$' %} 12u(xsmall)">
+            <a href="{{ post.url }}" class="image fit thumb"><img src="{{ post.image }}" alt="" /></a>
+            <p> {{ post.title }} - {{post.date_event | date_to_long_string }} </p>
+          </article>
+        {% endif %}
+        {% endfor %}
+      </div>
+  </section>
+
+
+
+
+  <section id="four">
+    <h2>Organizers</h2>
+    <!-- <p> If you have questions or suggestions, please drop us an email: alpu[at]dtu.dk &#160
+      <a href="mailto:{{ site.author.email }}" class="icon fa-envelope-o" aria-hidden="true"> <span class="label">Email</span> </a>
+    </p> -->
+    <div class="major">
+      <!-- <div class="8u 12u$(xsmall)">
+        <form method="post"action="mailto:cogsystalks@gmail.com?subject=We%20want%20to%20get%20in%20touch%20with%20you" enctype="text/plain" onsubmit="location.href='{{ site.baseurl }}{% link pages/thanks.md %}';">
+          <div class="row uniform 50%">
+            <div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name"></div>
+            <div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email"></div>
+            <div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+          </div>
+        <ul class="actions">
+          <li><input type="submit" name = "submit" value="Send Message"></li>
+        </ul>
+        </form>
+      </div> -->
+      <div class="6u$ 12u$(small)">
+        <ul class="labeled-icons">
+          <!-- <li>
+            <h3 class="icon fa-home"><span class="label">Address</span></h3>
+            Technical University of Denmark</br>
+            Richard Petersens Plads</br>
+            Bygning 321, rum 133</br>
+            2800 Kgs. Lyngby
+          </li> -->
+          <li>
+            <h3 class="icon fas fa-user"><span class="label">Person1</span></h3>
+            <a href="https://www.cst.cam.ac.uk/people/cm2099">Challenger Mishra</a>
+            ,
+            <h3 class="icon fas fa-user"><span class="label">Person2</span></h3>
+            <a href="https://scholar.google.co.uk/citations?hl=en&user=oJ6-p50AAAAJ">Pablo Morales</a>
+            ,
+            <h3 class="icon fas fa-user"><span class="label">Person3</span></h3>
+            <a href="https://www.dtu.dk/english/service/phonebook/person?id=150066&cpid=278391&tab=0">Alison Pouplin</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</div>

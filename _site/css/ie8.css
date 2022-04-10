@@ -51,7 +51,7 @@
 /* Header */
 
 	#header {
-		background-image: url("../../images/nebula.jpg");
+		background-image: url("../../images/nebula.png");
 		background-repeat: no-repeat;
 		background-size: cover;
 		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");

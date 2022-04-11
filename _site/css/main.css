@@ -2459,7 +2459,7 @@
 		background-color: #1f1815;
 		background-attachment: scroll,								fixed;
 		/*background-image: url("images/overlay.png"), url("../images/nebula.jpg");*/
-		background-image: url("../images/nebula.png");
+		background-image: url("../images/calabiyaubg.png");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto 100%;
@@ -2926,7 +2926,7 @@
 				background-attachment: scroll;
 				background-color: #1f1815;
 				/*background-image: url("images/overlay.png"), url("../images/nebula.jpg");*/
-				background-image: url("../images/nebula.png");
+				background-image: url("../images/calabiyaubg.png");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;

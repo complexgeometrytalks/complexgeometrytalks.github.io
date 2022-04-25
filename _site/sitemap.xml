@@ -13,11 +13,15 @@
 <lastmod>2022-04-05T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/event-1/</loc>
+<loc>http://localhost:4000/lecture-2/</loc>
 <lastmod>2022-04-05T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/lecture-2/</loc>
+<loc>http://localhost:4000/event-3/</loc>
+<lastmod>2022-04-05T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/lecture-3/</loc>
 <lastmod>2022-04-05T00:00:00+09:00</lastmod>
 </url>
 <url>

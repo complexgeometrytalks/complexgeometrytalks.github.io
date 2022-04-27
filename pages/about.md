@@ -11,5 +11,5 @@ The Group will take place between mid-April and mid-June.
 We hope that this innitiative will foster interactions between physics, mathematics and machine learning giving rise to exciting new ideas.
 
 Pablo A. Morales (Araya Research)<br/>
-Alison Poplin (DTU)<br/>
+Alison Pouplin (DTU)<br/>
 Challenger Mishra (Cambridge University)

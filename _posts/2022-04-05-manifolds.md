@@ -7,6 +7,7 @@ image: "/images/illustration/lecture1-pablo.png"
 permalink: /lecture-1/
 ---
 
+Zoom link: https://dtudk.zoom.us/j/63952790964
 
 A brief review from topology to manifolds.
 

@@ -7,7 +7,7 @@ permalink: /schedule/
 Upcoming events: 
 
 - 30th of Sept: [Information geometry of likelihood ratio exponential families]({% post_url 2022-01-06-nielsen %}), by Frank Nielsen (11:00-12:00 BST)
-- 9th of Sept: [Quantum algorithms and Riemannian geometry]({% post_url 2022-04-03-subhayan %}), by Subhayan Roy Moulik (09:00-10:00 BST)
+- ~~9th of Sept: [Quantum algorithms and Riemannian geometry]({% post_url 2022-04-03-subhayan %}), by Subhayan Roy Moulik (09:00-10:00 BST)~~ **Cancelled**
 
 Past events:
 
